@@ -4,12 +4,14 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Users, Cog, Fuel, Tag, Phone, Check, MessageCircle } from 'lucide-react';
 import { vehicles } from '@/data/vehicles';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { useCurrency } from '@/i18n/CurrencyContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function VehicleDetail() {
   const { id } = useParams<{ id: string }>();
   const { t, isRTL } = useLanguage();
+  const { formatPrice } = useCurrency();
   const navigate = useNavigate();
   
   const handleBackToFleet = () => {
@@ -116,7 +118,7 @@ export default function VehicleDetail() {
               <div className="mb-8">
                 <span className="text-muted-foreground text-sm">{t.vehicleDetail.from}</span>
                 <div className="text-gradient-gold font-display text-4xl font-bold">
-                  {vehicle.pricePerDay}€
+                  {formatPrice(vehicle.pricePerDay)}
                   <span className="text-lg font-normal text-muted-foreground">{t.vehicleDetail.perDay}</span>
                 </div>
               </div>
@@ -237,7 +239,7 @@ export default function VehicleDetail() {
                           <span>{v.transmission}</span>
                         </div>
                         <div className="text-primary font-display font-bold">
-                          {v.pricePerDay}€
+                          {formatPrice(v.pricePerDay)}
                         </div>
                       </div>
                     </div>

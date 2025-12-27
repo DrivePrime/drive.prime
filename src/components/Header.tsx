@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Phone, Menu, X } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import CurrencySwitcher from "./CurrencySwitcher";
 import logo from "@/assets/logo.png";
 
 export default function Header() {
@@ -92,7 +93,8 @@ export default function Header() {
                     {link.name}
                   </a>
                 ))}
-                <div className="pt-4 border-t border-border">
+                <div className="pt-4 border-t border-border flex flex-col gap-4">
+                  <CurrencySwitcher />
                   <LanguageSwitcher />
                 </div>
               </nav>

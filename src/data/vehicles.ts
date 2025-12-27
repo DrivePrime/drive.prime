@@ -32,7 +32,6 @@ import porscheMacanSImg from "../assets/porsche-macan-s.png";
 import porscheMacanGtsImg from "../assets/porsche-macan-gts.png";
 import porscheCayenneImg from "../assets/porsche-cayenne.png";
 import porsche911Img from "../assets/porsche-911.png";
-import ferrariF8Img from "../assets/ferrari-f8.png";
 import maseratiLevanteImg from "../assets/maserati-levante.png";
 
 export type VehicleCategory =
@@ -66,7 +65,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Manu.",
     fuel: "Essence",
-    pricePerDay: 35,
+    pricePerDay: 30,
     image: daciaLoganImg
   },
   {
@@ -134,9 +133,9 @@ export const vehicles: Vehicle[] = [
     name: "Clio 5",
     category: "Économique",
     seats: 5,
-    transmission: "Manu.",
+    transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 35,
+    pricePerDay: 30,
     image: clio5Img
   },
   {
@@ -146,7 +145,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 150,
+    pricePerDay: 130,
     image: meganeRsImg
   },
   {
@@ -165,7 +164,7 @@ export const vehicles: Vehicle[] = [
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 90,
     image: golf8Img
   },
@@ -175,7 +174,7 @@ export const vehicles: Vehicle[] = [
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 120,
     image: golf8RLineImg
   },
@@ -196,17 +195,17 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 150,
+    pricePerDay: 130,
     image: vwTouaregImg
   },
   {
     id: "audi-a3",
-    name: "Audi A3",
+    name: "Audi A3 Sline",
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 100,
+    pricePerDay: 120,
     image: audiA3Img
   },
   {
@@ -236,7 +235,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 230,
+    pricePerDay: 250,
     image: audiQ8Img
   },
   {
@@ -246,7 +245,7 @@ export const vehicles: Vehicle[] = [
     seats: 4,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 230,
+    pricePerDay: 250,
     image: bmwSerie4CabrioletImg
   },
   {
@@ -256,7 +255,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 130,
+    pricePerDay: 100,
     image: mercedesClasseAImg
   },
   {
@@ -326,7 +325,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 150,
+    pricePerDay: 130,
     image: rangeRoverEvoqueImg
   },
   {
@@ -336,7 +335,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 350,
+    pricePerDay: 300,
     image: rangeRoverSportImg
   },
   {
@@ -376,7 +375,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 300,
+    pricePerDay: 250,
     image: porscheMacanSImg
   },
   {
@@ -386,7 +385,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 350,
+    pricePerDay: 300,
     image: porscheMacanGtsImg
   },
   {
@@ -400,24 +399,14 @@ export const vehicles: Vehicle[] = [
     image: porscheCayenneImg
   },
   {
-    id: "porsche-911",
-    name: "Porsche 911",
+    id: "porsche-boxster-911",
+    name: "Porsche Boxster 911",
     category: "Sport",
     seats: 4,
     transmission: "Auto.",
     fuel: "Essence",
     pricePerDay: 400,
     image: porsche911Img
-  },
-  {
-    id: "ferrari-f8",
-    name: "Ferrari F8",
-    category: "Luxe",
-    seats: 2,
-    transmission: "Auto.",
-    fuel: "Essence",
-    pricePerDay: 1500,
-    image: ferrariF8Img
   }
 ];
 

@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import { Users, Cog, Fuel, Eye } from "lucide-react";
 import { vehicles, categories, VehicleCategory } from "@/data/vehicles";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { useCurrency } from "@/i18n/CurrencyContext";
 
 export default function Fleet() {
   const [activeCategory, setActiveCategory] = useState<VehicleCategory>("Tous");
   const { t, isRTL } = useLanguage();
+  const { formatPrice } = useCurrency();
 
   const filteredVehicles = activeCategory === "Tous" 
     ? vehicles 
@@ -121,7 +123,7 @@ export default function Fleet() {
                   <div>
                     <span className="text-muted-foreground text-xs">{t.fleet.from}</span>
                     <div className="text-primary font-display text-xl font-bold">
-                      {vehicle.pricePerDay}€<span className="text-sm font-normal text-muted-foreground">{t.fleet.perDay}</span>
+                      {formatPrice(vehicle.pricePerDay)}<span className="text-sm font-normal text-muted-foreground">{t.fleet.perDay}</span>
                     </div>
                   </div>
                   <button
