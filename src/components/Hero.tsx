@@ -8,7 +8,7 @@ import heroBg from "@/assets/hero-bg.png";
 export default function Hero() {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [location, setLocation] = useState("Aéroport Marrakech");
+  const [location, setLocation] = useState("Marrakech - Aéroport");
   const [vehicle, setVehicle] = useState("");
   const { t, isRTL } = useLanguage();
 
