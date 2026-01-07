@@ -64,7 +64,7 @@ export const vehicles: Vehicle[] = [
     category: "Économique",
     seats: 5,
     transmission: "Manu.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 30,
     image: daciaLoganImg
   },
@@ -84,7 +84,7 @@ export const vehicles: Vehicle[] = [
     category: "Économique",
     seats: 5,
     transmission: "Manu.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 30,
     image: hyundaiI20Img
   },
@@ -94,7 +94,7 @@ export const vehicles: Vehicle[] = [
     category: "Économique",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 30,
     image: hyundaiAccentImg
   },
@@ -104,7 +104,7 @@ export const vehicles: Vehicle[] = [
     category: "Économique",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 30,
     image: hyundaiI30Img
   },
@@ -134,7 +134,7 @@ export const vehicles: Vehicle[] = [
     category: "Économique",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Diesel",
+    fuel: "Essence",
     pricePerDay: 30,
     image: clio5Img
   },
@@ -154,7 +154,7 @@ export const vehicles: Vehicle[] = [
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 100,
     image: seatCupraLeonImg
   },
@@ -204,7 +204,7 @@ export const vehicles: Vehicle[] = [
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 120,
     image: audiA3Img
   },
@@ -254,7 +254,7 @@ export const vehicles: Vehicle[] = [
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 100,
     image: mercedesClasseAImg
   },
@@ -264,7 +264,7 @@ export const vehicles: Vehicle[] = [
     category: "Berline",
     seats: 5,
     transmission: "Auto.",
-    fuel: "Essence",
+    fuel: "Diesel",
     pricePerDay: 150,
     image: mercedesClaImg
   },
