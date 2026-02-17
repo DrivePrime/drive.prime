@@ -1,5 +1,5 @@
 import meganeRsImg from "../assets/megane-rs-new.png";
-import seatCupraLeonImg from "../assets/seat-cupra-leon.png";
+
 import golf8RLineImg from "../assets/golf-8-r-line.png";
 import golf8Img from "../assets/golf-8.png";
 import vwTiguanImg from "../assets/vw-tiguan.png";
@@ -75,7 +75,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Manu.",
     fuel: "Diesel",
-    pricePerDay: 45,
+    pricePerDay: 50,
     image: daciaDusterImg
   },
   {
@@ -145,18 +145,8 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 130,
-    image: meganeRsImg
-  },
-  {
-    id: "seat-cupra-leon",
-    name: "Seat Cupra Leon",
-    category: "Compacte",
-    seats: 5,
-    transmission: "Auto.",
-    fuel: "Diesel",
     pricePerDay: 100,
-    image: seatCupraLeonImg
+    image: meganeRsImg
   },
   {
     id: "golf-8",
@@ -165,7 +155,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 90,
+    pricePerDay: 80,
     image: golf8Img
   },
   {
@@ -175,7 +165,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 120,
+    pricePerDay: 100,
     image: golf8RLineImg
   },
   {
@@ -185,7 +175,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 100,
+    pricePerDay: 90,
     image: vwTiguanImg
   },
   {
@@ -195,7 +185,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 130,
+    pricePerDay: 100,
     image: vwTouaregImg
   },
   {
@@ -205,7 +195,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 120,
+    pricePerDay: 100,
     image: audiA3Img
   },
   {
@@ -215,7 +205,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 400,
+    pricePerDay: 300,
     image: audiRs3Img
   },
   {
@@ -225,7 +215,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 130,
+    pricePerDay: 120,
     image: audiQ3Img
   },
   {
@@ -265,7 +255,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 150,
+    pricePerDay: 130,
     image: mercedesClaImg
   },
   {
@@ -275,7 +265,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 200,
+    pricePerDay: 150,
     image: mercedesClasseCImg
   },
   {
@@ -295,7 +285,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 1000,
+    pricePerDay: 900,
     image: mercedesClasseGImg
   },
   {
@@ -325,7 +315,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 130,
+    pricePerDay: 100,
     image: rangeRoverEvoqueImg
   },
   {
@@ -345,7 +335,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 600,
+    pricePerDay: 500,
     image: rangeRoverVogueImg
   },
   {
@@ -355,7 +345,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 200,
+    pricePerDay: 180,
     image: porscheMacanImg
   },
   {
@@ -365,7 +355,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 230,
+    pricePerDay: 200,
     image: porscheMacanTImg
   },
   {
@@ -375,7 +365,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 250,
+    pricePerDay: 230,
     image: porscheMacanSImg
   },
   {
@@ -385,7 +375,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 300,
+    pricePerDay: 250,
     image: porscheMacanGtsImg
   },
   {
@@ -395,7 +385,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 400,
+    pricePerDay: 350,
     image: porscheCayenneImg
   },
   {
@@ -405,7 +395,7 @@ export const vehicles: Vehicle[] = [
     seats: 4,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 400,
+    pricePerDay: 350,
     image: porsche911Img
   }
 ];
