@@ -16,7 +16,7 @@ export default function Fleet() {
 
   const handleReserve = (vehicleName: string) => {
     const message = `Bonjour, je suis intéressé par la location de ${vehicleName}. Pouvez-vous me donner plus d'informations ?`;
-    window.location.href = `https://wa.me/212661627339?text=${encodeURIComponent(message)}`;
+    window.location.href = `https://wa.me/212612132748?text=${encodeURIComponent(message)}`;
   };
 
   const categoryLabels: Record<VehicleCategory, string> = {
