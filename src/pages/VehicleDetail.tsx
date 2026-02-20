@@ -48,7 +48,7 @@ export default function VehicleDetail() {
 
   const handleReserve = () => {
     const message = `Bonjour, je souhaite réserver le ${vehicle.name}. Pouvez-vous me donner plus d'informations ?`;
-    window.location.href = `https://wa.me/212661627339?text=${encodeURIComponent(message)}`;
+    window.location.href = `https://wa.me/212612132748?text=${encodeURIComponent(message)}`;
   };
 
   const features = [
@@ -193,7 +193,7 @@ export default function VehicleDetail() {
                   {t.vehicleDetail.bookNow}
                 </button>
                 <a
-                  href="tel:+212661627339"
+                  href="tel:+212612132748"
                   className="flex-1 border border-primary text-primary font-medium px-6 py-4 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <Phone className="w-5 h-5" />

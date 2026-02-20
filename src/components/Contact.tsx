@@ -15,7 +15,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const message = `Bonjour, je suis ${formData.name}.\n\nEmail: ${formData.email}\nDate de début: ${formData.startDate}\nDate de fin: ${formData.endDate}\nVéhicule souhaité: ${formData.vehicle}\n\nMessage: ${formData.message}`;
-    window.location.href = `https://wa.me/212661627339?text=${encodeURIComponent(message)}`;
+    window.location.href = `https://wa.me/212612132748?text=${encodeURIComponent(message)}`;
   };
 
   return (
@@ -138,7 +138,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">WhatsApp</h4>
-                  <a href="tel:+212661627339" className="text-muted-foreground hover:text-primary transition-colors">+212 661-627339</a>
+                  <a href="tel:+212612132748" className="text-muted-foreground hover:text-primary transition-colors">+212 612-132748</a>
                 </div>
               </div>
 
@@ -174,7 +174,7 @@ export default function Contact() {
               Contactez-nous directement sur WhatsApp pour une réponse instantanée.
             </p>
             <a
-              href="https://wa.me/212661627339"
+              href="https://wa.me/212612132748"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-colors duration-300"

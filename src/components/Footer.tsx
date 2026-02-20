@@ -62,7 +62,7 @@ export default function Footer() {
                 <TikTokIcon />
               </a>
               <a
-                href="https://wa.me/212661627339"
+                href="https://wa.me/212612132748"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors duration-300"
@@ -79,7 +79,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Phone className="w-5 h-5 text-primary" />
-                  <a href="tel:+212661627339" className="hover:text-primary transition-colors">+212 661-627339</a>
+                  <a href="tel:+212612132748" className="hover:text-primary transition-colors">+212 612-132748</a>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Mail className="w-5 h-5 text-primary" />
@@ -134,7 +134,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/212661627339"
+        href="https://wa.me/212612132748"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg shadow-[#25D366]/30 hover:scale-110 transition-transform duration-300 z-50"

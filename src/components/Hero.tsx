@@ -14,7 +14,7 @@ export default function Hero() {
 
   const handleReserve = () => {
     const message = `Bonjour, je souhaite réserver un véhicule:\n- Lieu: ${location}\n- Date de départ: ${startDate}\n- Date de retour: ${endDate}\n- Véhicule: ${vehicle || t.hero.allVehicles}`;
-    window.location.href = `https://wa.me/212661627339?text=${encodeURIComponent(message)}`;
+    window.location.href = `https://wa.me/212612132748?text=${encodeURIComponent(message)}`;
   };
 
   return (
