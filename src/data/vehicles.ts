@@ -265,7 +265,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 150,
+    pricePerDay: 180,
     image: mercedesClasseCImg
   },
   {
