@@ -133,9 +133,19 @@ export const vehicles: Vehicle[] = [
     name: "Clio 5",
     category: "Économique",
     seats: 5,
-    transmission: "Auto.",
-    fuel: "Essence",
+    transmission: "Manu.",
+    fuel: "Diesel",
     pricePerDay: 30,
+    image: clio5Img
+  },
+  {
+    id: "clio-5-auto",
+    name: "Clio 5",
+    category: "Économique",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 35,
     image: clio5Img
   },
   {
@@ -265,7 +275,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 150,
+    pricePerDay: 180,
     image: mercedesClasseCImg
   },
   {
@@ -285,7 +295,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 900,
+    pricePerDay: 1000,
     image: mercedesClasseGImg
   },
   {
@@ -385,7 +395,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 350,
+    pricePerDay: 400,
     image: porscheCayenneImg
   },
   {
@@ -395,7 +405,7 @@ export const vehicles: Vehicle[] = [
     seats: 4,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 350,
+    pricePerDay: 400,
     image: porsche911Img
   }
 ];
