@@ -133,9 +133,19 @@ export const vehicles: Vehicle[] = [
     name: "Clio 5",
     category: "Économique",
     seats: 5,
-    transmission: "Auto.",
-    fuel: "Essence",
+    transmission: "Manu.",
+    fuel: "Diesel",
     pricePerDay: 30,
+    image: clio5Img
+  },
+  {
+    id: "clio-5-auto",
+    name: "Clio 5",
+    category: "Économique",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 35,
     image: clio5Img
   },
   {
