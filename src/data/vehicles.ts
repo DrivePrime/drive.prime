@@ -161,6 +161,26 @@ export const vehicles: Vehicle[] = [
     image: meganeRsImg
   },
   {
+    id: "cupra-leon",
+    name: "Cupra Leon",
+    category: "Compacte",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 80,
+    image: cupraLeonImg
+  },
+  {
+    id: "vw-t-roc",
+    name: "VW T-Roc",
+    category: "SUV",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 60,
+    image: vwTRocImg
+  },
+  {
     id: "golf-8",
     name: "Golf 8",
     category: "Compacte",
