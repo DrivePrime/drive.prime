@@ -33,6 +33,8 @@ import porscheMacanGtsImg from "../assets/porsche-macan-gts.png";
 import porscheCayenneImg from "../assets/porsche-cayenne.png";
 import porsche911Img from "../assets/porsche-911.png";
 import maseratiLevanteImg from "../assets/maserati-levante.png";
+import cupraLeonImg from "../assets/cupra-leon.jpg";
+import vwTRocImg from "../assets/vw-t-roc.jpg";
 
 export type VehicleCategory =
   | "Tous" 
