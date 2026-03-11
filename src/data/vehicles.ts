@@ -33,6 +33,8 @@ import porscheMacanGtsImg from "../assets/porsche-macan-gts.png";
 import porscheCayenneImg from "../assets/porsche-cayenne.png";
 import porsche911Img from "../assets/porsche-911.png";
 import maseratiLevanteImg from "../assets/maserati-levante.png";
+import cupraLeonImg from "../assets/cupra-leon.jpg";
+import vwTRocImg from "../assets/vw-t-roc.jpg";
 
 export type VehicleCategory =
   | "Tous" 
@@ -159,6 +161,26 @@ export const vehicles: Vehicle[] = [
     image: meganeRsImg
   },
   {
+    id: "cupra-leon",
+    name: "Cupra Leon",
+    category: "Compacte",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 80,
+    image: cupraLeonImg
+  },
+  {
+    id: "vw-t-roc",
+    name: "VW T-Roc",
+    category: "SUV",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 60,
+    image: vwTRocImg
+  },
+  {
     id: "golf-8",
     name: "Golf 8",
     category: "Compacte",
@@ -275,7 +297,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 180,
+    pricePerDay: 150,
     image: mercedesClasseCImg
   },
   {
