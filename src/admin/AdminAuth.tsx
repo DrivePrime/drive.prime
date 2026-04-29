@@ -1,7 +1,7 @@
 import { Navigate, useLocation } from "react-router-dom";
 
 const ADMIN_KEY = "drive_prime_admin_auth";
-export const ADMIN_PASSWORD = "driveprime2026";
+export const ADMIN_PASSWORD = "nabilaymane77!!";
 
 export const isAdminAuthed = () =>
   typeof window !== "undefined" && sessionStorage.getItem(ADMIN_KEY) === "1";
