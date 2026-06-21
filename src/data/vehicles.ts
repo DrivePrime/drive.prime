@@ -9,10 +9,7 @@ import audiRs3Img from "../assets/audi-rs3.png";
 import audiQ3Img from "../assets/audi-q3.png";
 import audiQ8Img from "../assets/audi-q8.png";
 import daciaDusterImg from "../assets/dacia-duster.png";
-import daciaLoganImg from "../assets/dacia-logan.png";
-import hyundaiI20Img from "../assets/hyundai-i20.png";
 import hyundaiAccentImg from "../assets/hyundai-accent.png";
-import hyundaiI30Img from "../assets/hyundai-i30.png";
 import hyundaiTucsonImg from "../assets/hyundai-tucson.png";
 import fiat500Img from "../assets/fiat-500.png";
 import clio5Img from "../assets/clio5.png";
@@ -33,7 +30,6 @@ import porscheMacanGtsImg from "../assets/porsche-macan-gts.png";
 import porscheCayenneImg from "../assets/porsche-cayenne.png";
 import porsche911Img from "../assets/porsche-911.png";
 import maseratiLevanteImg from "../assets/maserati-levante.png";
-import cupraLeonImg from "../assets/cupra-leon.jpg";
 import vwTRocImg from "../assets/vw-t-roc.jpg";
 
 export type VehicleCategory =
@@ -61,34 +57,14 @@ export interface Vehicle {
 
 export const vehicles: Vehicle[] = [
   {
-    id: "dacia-logan",
-    name: "Dacia Logan",
-    category: "Économique",
-    seats: 5,
-    transmission: "Manu.",
-    fuel: "Diesel",
-    pricePerDay: 30,
-    image: daciaLoganImg
-  },
-  {
     id: "dacia-duster",
     name: "Dacia Duster",
     category: "SUV",
     seats: 5,
     transmission: "Manu.",
     fuel: "Diesel",
-    pricePerDay: 50,
+    pricePerDay: 60,
     image: daciaDusterImg
-  },
-  {
-    id: "hyundai-i20",
-    name: "Hyundai i20",
-    category: "Économique",
-    seats: 5,
-    transmission: "Manu.",
-    fuel: "Diesel",
-    pricePerDay: 30,
-    image: hyundaiI20Img
   },
   {
     id: "hyundai-accent",
@@ -97,18 +73,8 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 30,
+    pricePerDay: 40,
     image: hyundaiAccentImg
-  },
-  {
-    id: "hyundai-i30",
-    name: "Hyundai i30",
-    category: "Économique",
-    seats: 5,
-    transmission: "Auto.",
-    fuel: "Diesel",
-    pricePerDay: 30,
-    image: hyundaiI30Img
   },
   {
     id: "hyundai-tucson",
@@ -117,7 +83,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 60,
+    pricePerDay: 80,
     image: hyundaiTucsonImg
   },
   {
@@ -127,7 +93,7 @@ export const vehicles: Vehicle[] = [
     seats: 4,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 35,
+    pricePerDay: 40,
     image: fiat500Img
   },
   {
@@ -137,7 +103,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Manu.",
     fuel: "Diesel",
-    pricePerDay: 30,
+    pricePerDay: 35,
     image: clio5Img
   },
   {
@@ -147,7 +113,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 35,
+    pricePerDay: 40,
     image: clio5Img
   },
   {
@@ -157,18 +123,8 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 100,
+    pricePerDay: 120,
     image: meganeRsImg
-  },
-  {
-    id: "cupra-leon",
-    name: "Cupra Leon",
-    category: "Compacte",
-    seats: 5,
-    transmission: "Auto.",
-    fuel: "Diesel",
-    pricePerDay: 80,
-    image: cupraLeonImg
   },
   {
     id: "vw-t-roc",
@@ -177,7 +133,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 60,
+    pricePerDay: 80,
     image: vwTRocImg
   },
   {
@@ -187,7 +143,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 80,
+    pricePerDay: 90,
     image: golf8Img
   },
   {
@@ -197,7 +153,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 100,
+    pricePerDay: 120,
     image: golf8RLineImg
   },
   {
@@ -207,7 +163,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 90,
+    pricePerDay: 100,
     image: vwTiguanImg
   },
   {
@@ -221,13 +177,23 @@ export const vehicles: Vehicle[] = [
     image: vwTouaregImg
   },
   {
+    id: "vw-touareg-full",
+    name: "VW Touareg Full Option",
+    category: "SUV Premium",
+    seats: 5,
+    transmission: "Auto.",
+    fuel: "Diesel",
+    pricePerDay: 120,
+    image: vwTouaregImg
+  },
+  {
     id: "audi-a3",
     name: "Audi A3 Sline",
     category: "Compacte",
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 100,
+    pricePerDay: 120,
     image: audiA3Img
   },
   {
@@ -237,7 +203,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 300,
+    pricePerDay: 350,
     image: audiRs3Img
   },
   {
@@ -247,7 +213,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 120,
+    pricePerDay: 130,
     image: audiQ3Img
   },
   {
@@ -267,7 +233,7 @@ export const vehicles: Vehicle[] = [
     seats: 4,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 250,
+    pricePerDay: 300,
     image: bmwSerie4CabrioletImg
   },
   {
@@ -277,7 +243,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 100,
+    pricePerDay: 120,
     image: mercedesClasseAImg
   },
   {
@@ -297,7 +263,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 150,
+    pricePerDay: 180,
     image: mercedesClasseCImg
   },
   {
@@ -337,7 +303,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 230,
+    pricePerDay: 250,
     image: maseratiLevanteImg
   },
   {
@@ -347,7 +313,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Diesel",
-    pricePerDay: 100,
+    pricePerDay: 120,
     image: rangeRoverEvoqueImg
   },
   {
@@ -377,7 +343,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 180,
+    pricePerDay: 220,
     image: porscheMacanImg
   },
   {
@@ -387,7 +353,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 200,
+    pricePerDay: 250,
     image: porscheMacanTImg
   },
   {
@@ -397,7 +363,7 @@ export const vehicles: Vehicle[] = [
     seats: 5,
     transmission: "Auto.",
     fuel: "Essence",
-    pricePerDay: 230,
+    pricePerDay: 280,
     image: porscheMacanSImg
   },
   {
